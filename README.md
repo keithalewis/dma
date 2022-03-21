@@ -15,13 +15,21 @@ Relation: subset of the cartesian product of expression times expression.
 
 `Rel` ≔ `=` | `≠` | `≤` | … 
 
-`Expr` ≔ `Var` | `Const` | `Op` | `Quant`
+`Expr` ≔ `Var` | `Const` | `Fun` | `Quant`
 
 `Var` ≔ `Char` | `String`
 
 `Const` ≔ `Var` (connot be used in η-conversion)
 
-`Op` ≔ `op(e<sub>1</sub>, …)`
+`Fun` ≔ `fun(expr, …)`
+
+`Quant` ≔  `∀` `Var` `Expr` | `∃` `Var` `Expr`
+
+## Manipulation
+
+Beta reduction. Replace free occurences of a variable in an expression by an expression.
+
+Eta conversion. Rename bound occurences of a variable by another variable.
 
 ## References
 
