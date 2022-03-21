@@ -19,7 +19,7 @@ Relation: subset of the cartesian product of expression times expression.
 
 `Var` ≔ `Char` | `String`
 
-`Const` ≔ `Var` (connot be used in η-conversion)
+`Const` ≔ `Var` (cannot be used in η-conversion)
 
 `Fun` ≔ `fun(expr, …)`
 
