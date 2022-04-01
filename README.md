@@ -1,6 +1,14 @@
 # dma
 
-A prosthetic device for doing math
+A prosthetic device for doing math. Create and manipulate well-formed formulas.
+
+## Notes on Notation
+
+We ignore the parsing issue and focus on representations amenable to algoritms.
+
+Everything is a set. We use ∏<sub>i ∈ I</sub> A<sub>i</sub> for the cartesian product
+and ∐<sub>i ∈ I</sub> A<sub>i</sub> for the coproduct, or disjoint union.
+×
 
 ## Use cases
 
@@ -15,7 +23,6 @@ Use S-expressions `e = (e0 e1 e2 ...)`.
   <_ = (+ 0 _), [2]> // x = 0 + x
 (+ (+ (^ x 2) (* 2 x)) (+ 0 5)) // x^2 + sx + 0 + 5
 
-Create and manipulate well-formed formulas.
 
 Statement: well-formed formula that is either true or false.
 
