@@ -1,5 +1,19 @@
 # dma
+
 A prosthetic device for doing math
+
+## Use cases
+
+Use S-expressions `e = (e0 e1 e2 ...)`.
+
+`(car e) -> e0`, `(cdr e) -> (e1 e1 ...)`, `(cons (car e) (cdr e)` => e` 
+
+`(index i e) -> ei = e[i]`
+
+```
+(+ (+ (^ x 2) (* 2 x)) 5) // x^2 + 2 x + 5
+  <_ = (+ 0 _), [2]> // x = 0 + x
+(+ (+ (^ x 2) (* 2 x)) (+ 0 5)) // x^2 + sx + 0 + 5
 
 Create and manipulate well-formed formulas.
 
