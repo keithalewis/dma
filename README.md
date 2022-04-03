@@ -9,7 +9,7 @@ We ignore the parsing issue and focus on representations amenable to algorithms.
 Everything is a set. We use ∏<sub>i ∈ I</sub> A<sub>i</sub> for the cartesian product
 and ∐<sub>i ∈ I</sub> A<sub>i</sub> for the coproduct, or disjoint union.
 
-The product ∏<sub>i ∈ I</sub> A<sub>i</sub> = { (a<sub>i</sub>) : a<sub>i</sub> ∈ A<sub>i</sub> }
+The product ∏<sub>i ∈ I</sub> A<sub>i</sub> = { (a<sub>i</sub>)<sub>i ∈ A<sub>i</sub></sub> }
 has projections π<sub>j</sub>:∏<sub>i ∈ I</sub> A<sub>i</sub> → A<sub>i</sub> where π<sub>j</sub>(a<sub>i</sub>) = a<sub>j</sub>, j ∈ I.
 
 The coproduct  ∐<sub>i ∈ I</sub> A<sub>i</sub> = { (i, a<sub>i</sub>) : i ∈ I, a<sub>i</sub> ∈ A<sub>i</sub> }
