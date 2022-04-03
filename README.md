@@ -6,14 +6,14 @@ A prosthetic device for doing math. Create and manipulate well-formed formulas.
 
 We ignore the parsing issue and focus on representations amenable to algorithms.
 
-Everything is a set. We use ∏<sub>i ∈ I</sub> A<sub>i</sub> for the cartesian product
+Everything is a set and ee use algebraic data types ∏<sub>i ∈ I</sub> A<sub>i</sub> for the cartesian product
 and ∐<sub>i ∈ I</sub> A<sub>i</sub> for the coproduct, or disjoint union.
 
-The product ∏<sub>i ∈ I</sub> A<sub>i</sub> = { (a<sub>i</sub>)<sub>i ∈ A<sub>i</sub></sub> }
-has projections π<sub>j</sub>:∏<sub>i ∈ I</sub> A<sub>i</sub> → A<sub>i</sub> where π<sub>j</sub>(a<sub>i</sub>) = a<sub>j</sub>, j ∈ I.
+The product ∏<sub>i ∈ I</sub> A<sub>i</sub> = { (a<sub>i</sub>)) }
+has projections π<sub>j</sub>:∏<sub>i ∈ I</sub> A<sub>i</sub> → A<sub>j</sub> where π<sub>j</sub>((a<sub>i</sub>)) = a<sub>j</sub>, j ∈ I.
 
-The coproduct  ∐<sub>i ∈ I</sub> A<sub>i</sub> = { (i, a<sub>i</sub>) : i ∈ I, a<sub>i</sub> ∈ A<sub>i</sub> }
-as injections ν<sub>j</sub>: A<sub>j</sub> → ∐<sub>i ∈ I</sub> A<sub>i</sub> where ν<sub>j</sub>(a<sub>j</sub>) = (j, a<sub>j</sub>). 
+The coproduct ∐<sub>i ∈ I</sub> A<sub>i</sub> = { (i, a<sub>i</sub>) : i ∈ I, a<sub>i</sub> ∈ A<sub>i</sub> }
+has injections ν<sub>j</sub>: A<sub>j</sub> → ∐<sub>i ∈ I</sub> A<sub>i</sub> where ν<sub>j</sub>(a<sub>j</sub>) = (j, a<sub>j</sub>). 
 
 ×
 
