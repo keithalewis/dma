@@ -4,10 +4,13 @@ A prosthetic device for doing math. Create and manipulate well-formed formulas.
 
 ## Notes on Notation
 
-We ignore the parsing issue and focus on representations amenable to algoritms.
+We ignore the parsing issue and focus on representations amenable to algorithms.
 
 Everything is a set. We use ∏<sub>i ∈ I</sub> A<sub>i</sub> for the cartesian product
 and ∐<sub>i ∈ I</sub> A<sub>i</sub> for the coproduct, or disjoint union.
+
+The product ∏<sub>i ∈ I</sub> A<sub>i</sub> = { (a<sub>i</sub>) : a<sub>i</sub> ∈ A<sub>i</sub> }.
+
 ×
 
 ## Use cases
